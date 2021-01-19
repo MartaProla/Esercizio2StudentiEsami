@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Studente" max_length="40" name="x_570201_esame_stu_studente" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Matricola" mandatory="true" max_length="40" name="matricola" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome Studente" max_length="40" name="nome_studente" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Percorso di studi" max_length="40" name="percorso_di_studi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ingegneria Gestionale" sequence="0" value="ingegneria gestionale"/>
+                <element inactive_on_update="false" label="Ingegneria Meccanica" sequence="1" value="ingegneria meccanica"/>
+                <element inactive_on_update="false" label="Ingegneria Chimica" sequence="2" value="ingegneria chimica"/>
+                <element inactive_on_update="false" label="Ingegneria Industriale" sequence="3" value="ingegneria industriale"/>
+                <element inactive_on_update="false" label="Ingegneria Biomedica" sequence="4" value="ingegneria biomedica"/>
+            </choice>
+        </element>
+    </element>
+</database>

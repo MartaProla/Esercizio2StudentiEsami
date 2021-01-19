@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Esame Studente Relazione" max_length="40" name="x_570201_esame_stu_esame_studente_relazione" type="collection">
+        <element attributes="encode_utf8=false" label="Codice esame" mandatory="true" max_length="32" name="codice_esame" reference="x_570201_esame_stu_esame" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Data esame" max_length="40" name="data_esame" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Matricola studente" mandatory="true" max_length="32" name="matricola_studente" reference="x_570201_esame_stu_studente" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="true" label="Superato" max_length="40" name="superato" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Voto Esame" max_length="40" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="codice_esame"/>
+        </index>
+        <index name="index2">
+            <element name="matricola_studente"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f91d28addbf9a0108dd29444ca96191f" sys_domain="global" table="x_570201_esame_stu_esame_studente_relazione" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:18:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd1d28addbf9a0108dd29444ca961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_570201_esame_stu_esame_studente_relazione" name="x_570201_esame_stu_esame_studente_relazione" sys_domain="global" view="Default view">f91d28addbf9a0108dd29444ca96191f</sys_ui_form>
+            <sys_ui_section caption="Esame studente" display_value="Esame studente" name="x_570201_esame_stu_esame_studente_relazione" sys_domain="global" view="Default view">d3dc60addbf9a0108dd29444ca9619ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:18:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_570201_esame_stu_esame_studente_relazione</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:18:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f91d28addbf9a0108dd29444ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_570201_esame_stu_esame_studente_relazione</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Esame_Studente" source="x_570201_esame_stu">172aece9dbf9a0108dd29444ca9619cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Esame_Studente">172aece9dbf9a0108dd29444ca9619cf</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f91d28addbf9a0108dd29444ca96191f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:18:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
